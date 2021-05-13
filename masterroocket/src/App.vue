@@ -1,0 +1,31 @@
+<template>
+  <the-header />
+  <router-view />
+</template>
+
+<script>
+import TheHeader from "./components/TheHeader.vue";
+export default {
+  components: { TheHeader },
+};
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Vazir";
+}
+html {
+  direction: rtl;
+  background-color: rgba(241, 234, 234, 0.26);
+}
+</style>
